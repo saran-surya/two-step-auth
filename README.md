@@ -12,12 +12,19 @@ For people developing login sections they must know if the email Id the end user
 
 ## Usage
 
+    - Kindly Provide a Company Name so the mail will be treated as important, but you can continue without it also,
+
 ```node.js
 const {Auth} = require('two-step-auth');
 
 async function login(emailId){
-    const res = await Auth(emailId, "Optional Company Name")
+    const res = await Auth(emailId);
+    // You can follw the above approach, But we recommend you to follow the one below, as the mails will be treated as important
+    const res = await Auth(emailId, "Company Name");
     console.log(res);
+    console.log(res.mail);
+    console.log(res.OTP);
+    console.log(res.success);
 }
 
 login("YourEmail@anyDomain.com")
