@@ -1,0 +1,27 @@
+{
+  "name": "two-step-auth",
+  "version": "1.0.2",
+  "description": "Helps in veryfying the Email id of a user via (OTP)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saran-surya/two-step-auth.git"
+  },
+  "keywords": [
+    "auth",
+    "otp",
+    "mail"
+  ],
+  "author": "Saran Surya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saran-surya/two-step-auth/issues"
+  },
+  "homepage": "https://github.com/saran-surya/two-step-auth#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
