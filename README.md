@@ -12,7 +12,7 @@ For people developing login sections they must know if the email Id the end user
 
 ## Usage
 
-    - Kindly Provide a Company Name so the mail will be treated as important, but you can continue without it also,
+**Kindly Provide a Company Name so the mail will be treated as important, but you can continue without it also**,
 
 ```node.js
 const {Auth} = require('two-step-auth');
