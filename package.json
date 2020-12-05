@@ -1,6 +1,6 @@
 {
   "name": "two-step-auth",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Helps in veryfying the Email id of a user via (OTP)",
   "main": "index.js",
   "scripts": {
