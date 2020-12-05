@@ -13,6 +13,8 @@ For people developing login sections they must know if the email Id the end user
 ## Usage
 
 **Kindly Provide a Company Name so the mail will be treated as important, but you can continue without it also**,
+Usually the server responds within seconds ~ =< 2 seconds, incase the server is inactive it might take upto ~ <= 10 seconds, 
+And you can handle the Time you need the OTP for your project in your script and do the necessary :)
 
 ```node.js
 const {Auth} = require('two-step-auth');
