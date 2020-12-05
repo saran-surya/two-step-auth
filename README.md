@@ -8,7 +8,7 @@ This is a npm package that helps in verifying an Email address by sending OTP
 npm i --save two-step-auth
 ```
 ## What It Does
-For people developing login sections they must know if the email Id they provide is valid, thus this package takes in the Email ID they provide and returns you a data OTP to verify them, and sends the client one via Email, Thus making sure only verified Emails are encouraged.
+For people developing login sections they must know if the email Id the end user provides is valid, thus this package takes in the Email ID they provide and returns you a data OTP to verify them, and sends the client one via Email, Thus making sure only verified Emails are encouraged.
 
 ## Usage
 
