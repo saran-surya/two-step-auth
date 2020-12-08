@@ -68,7 +68,7 @@ LoginCredentials.use = true
 login("verificationEmail@anyDomain.com") //pass in the mail ID you need to verify
 
 ```
-## you will get a error message, if less secure apps is not enables
+## you will get a error message, if less secure apps is not enabled
 ![](images/error.png)
 
 ## Output Format
