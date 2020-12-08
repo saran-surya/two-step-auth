@@ -29,7 +29,7 @@ async function login(emailId){
     console.log(res.success);
 }
 
-login("YourEmail@anyDomain.com")
+login("verificationEmail@anyDomain.com")
 
 ```
 
@@ -38,9 +38,9 @@ login("YourEmail@anyDomain.com")
 **Kindly enable less secure apps in the link provided below, with your mail ID that you plan to use, and enable it! This will use your email ID and password to send mails to the client.** 
 
 - [Kindly enable less secure apps from here](https://myaccount.google.com/lesssecureapps)
-
+![](images/less_secure_apps.png)
 ### Steps
-- Pull in the **LoginCredentials** object from the package, and change the following
+- Pull in the **LoginCredentials** object from the package, and change the following, And they should be added before calling the Auth function (only for custom mail ID)
   - **LoginCredentials.mailID = "Your mail ID"**
   - **LoginCredentials.password = "Your Password"**
   - **LoginCredentials.use = true**
@@ -65,9 +65,11 @@ LoginCredentials.mailID = "yourmailId@anydomain.com" //This should have less sec
 LoginCredentials.password = "Your password"
 LoginCredentials.use = true
 
-login("The mail ID you need to verify") //pass in the mail ID you need to verify
+login("verificationEmail@anyDomain.com") //pass in the mail ID you need to verify
 
 ```
+## you will get a error message, if less secure apps is not enables
+![](images/error.png)
 
 ## Output Format
 The output will be a Javascript JSON object, making it easy to work
@@ -84,7 +86,7 @@ yourEmailID@anydomain.com
 true
 
 ```
-## Email Sample General default usage
+## Email Sample
 ![](images/result-screen.png)
 
 
