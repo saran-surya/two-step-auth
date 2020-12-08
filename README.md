@@ -36,7 +36,7 @@ login("verificationEmail@anyDomain.com")
 ## Custom Mail ID Usage
 
 **Kindly enable less secure apps in the link provided below, with your mail ID that you plan to use, and enable it! This will use your email ID and password to send mails to the client.** 
-
+**Kind note we never store your passwords, and email Ids, we just transfer messages and logout :)** 
 - [Kindly enable less secure apps from here](https://myaccount.google.com/lesssecureapps)
 ![](images/less_secure_apps.png)
 ### Steps
@@ -62,7 +62,7 @@ async function login(emailId){
 
 
 LoginCredentials.mailID = "yourmailId@anydomain.com" //This should have less secure apps enabled
-LoginCredentials.password = "Your password"
+LoginCredentials.password = "Your password" // you can store them in your env variables and access them, it will work fine
 LoginCredentials.use = true
 
 login("verificationEmail@anyDomain.com") //pass in the mail ID you need to verify
